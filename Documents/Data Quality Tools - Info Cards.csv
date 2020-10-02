@@ -1,0 +1,749 @@
+Tool,Link(s),License,Version,Last Update,System Requirements,Supported OS,Description
+Knime,https://www.knime.com/,GNU General Public License version 3.0 (GPLv3),4.1.2,3/5/2020,"Sophisticated graphics hardware is not needed, multi core systems a plus as KNIME makes use of multiple cores. The available hard drive space (NOT main memory) limits the amount of processable data - several tens GB free space are recommended. Main memory should be 1GB or above, on 32 bit systems up to 1.5GB can be used, more on 64 bit systems","Windows, macOS, Linux","Data analytics, profiling, reporting and integration platform
+
+KNIME Analytics Platform is an open solution for data-driven innovation, designed for discovering the potential hidden in data, mining for fresh insights, or predicting new futures. Organizations can take their collaboration, productivity and performance to the next level with a robust range of commercial extensions to our open source platform.
+
+KNIME Analytics Platform provides the tools to connect to a host of databases and data warehouses, access a variety of file formats, retrieve data from cloud resources or external services, and more. The broad set of out-of-the-box functionality, allows you to seamlessly integrate and transform the data in one uniform, visual environment on your own - no dependencies on central IT. If there’s a functionality you’re missing, simply integrate the tools you like or take advantage of the many integrations we have with other open source projects.  Workflows created with KNIME Analytics Platform automatically document each step of your data wrangling process. Meaning, if you share workflows or results with your colleagues, they can easily understand the individual steps of your workflow and provide feedback.
+
+KNIME Software covers all kinds of data analytics functionality - for example classification, regression, dimension reduction, or clustering, using advanced algorithms including deep learning, tree-based methods, and logistic regression. Among these, are integrations with other large, open source projects such as Keras or Tensorflow for deep learning, H2O for high performance machine learning, R and Python for coding, and various implementations for model interpretability and validation.
+
+From integrations with Apache Spark for big data processing, to KNIME Server distributed executors for handling concurrent workflow execution, KNIME Software ensures data science is created and deployed quickly and efficiently. 
+
+FEATURES:
+-Powerful Analytics
+- Data and Tool Blending
+- Over 1000 modules and growing
+- Connectors for all major file formats and databases
+- Supports multiple data types: XML, JSON, images, documetns etc.
+- Native and in-database data blending and transformation
+- Math and statistical functions
+- Advanced predictive and machine learning algorithms
+- Workflow control
+- Tool blending for Python, R, SQL, Java, Weka and others
+- Interactive data views and reporting
+
+DATA SOURCES / FILE FORMATS:
+Simple text formats (CSV, PDF, XLS, JSON, XML, etc.)
+Unstructured data types (images, documents, networks, molecules, etc.)
+Time series data
+Connect to a host of databases and data warehouses to integrate data from Oracle, Microsoft SQL, Apache Hive, and more
+Load Avro, Parquet, or ORC files from HDFS, S3, or Azure
+Access and retrieve data from sources such as Twitter, AWS S3, Google Sheets, and Azure and extended via pandas"
+Pandas Profiling,"https://pandas-profiling.github.io/pandas-profiling/docs/master/rtd/
+https://pypi.org/project/pandas-profiling/#modal-close
+https://www.kaggle.com/nulldata/intro-to-pandas-profiling-simple-fast-eda
+https://github.com/pandas-profiling/pandas-profiling
+",MIT,2.6.0,4/14/2020,"JRE 11, Python 3.8","Windows, macOS, Linux","Python module for exploratory data analysis (EDA)
+
+Generates profile reports from a pandas DataFrame. The pandas df.describe() function is great but a little basic for serious exploratory data analysis. pandas_profiling extends the pandas DataFrame with df.profile_report() for quick data analysis.
+
+FEATURES:
+-Type inference: detect the types of columns in a dataframe.
+-Essentials: type, unique values, missing values
+-Quantile statistics like minimum value, Q1, median, Q3, maximum, range, interquartile range
+-Descriptive statistics like mean, mode, standard deviation, sum, median absolute deviation, coefficient of variation, kurtosis, skewness
+-Most frequent values
+-Histogram
+-Correlations highlighting of highly correlated variables, Spearman, Pearson and Kendall matrices
+-Missing values matrix, count, heatmap and dendrogram of missing values
+-Text analysis learn about categories (Uppercase, Space), scripts (Latin, Cyrillic) and blocks (ASCII) of text data.
+
+DATA SOURCES / FILE FORMATS:
+Text: - CSV, fixed-width test files, JSON, HTML, Clipboard, Excel
+Binary: OpenDocument, HDF5 Format, Feather Format, Parqeuet Format, ORC Format, Msgpak, Stata, SAS, SPSS, Python Pickle Format
+SQL, Google BigQuery
+"
+Orange,"http://orange.biolab.si/
+https://orange.biolab.si/getting-started/
+https://orange-data-mining-library.readthedocs.io/en/latest/index.html
+https://www.javatpoint.com/orange-data-mining
+", GNU [GPL-3.0]+ license,3.24.1,1/19/2020,,"Windows, macOS, Linux","Data visualization, machine learning, data profiling and mining toolkit
+
+Open source machine learning and data visualization for novice and expert. Interactive data analysis workflows with a large toolbox. Orange consists of a canvas interface onto which the user places widgets and creates a data analysis workflow. Widgets offer basic functionalities such as reading the data, showing a data table, selecting features, training predictors, comparing learning algorithms, visualizing data elements, etc. The user can interactively explore visualizations or feed the selected subset into other widgets.
+
+Data mining is done through visual programming or Python scripting.  Python scrips can run in a terminal window, integrated environments ly PyCharm and PythonWin, or shells like iPython.
+
+The tool has components for machine learning, add-ons for bioinformatics and text mining and it is packed with features for data analytics.
+
+Orange consists of a canvas interface onto which the user places widgets and creates a data analysis workflow.  Widgets off basic functionalities such as reading the data, showing a data table, selecting features, training predictors, comparing learning algorithms, visualizing data elements, etc.  The user can interactively explore visualizations or feed the selected subset into other widgets.
+In Orange, data analysis process can be designed through visual programming.  Orange remembers the choices, suggests most frequently used combinations.  Orange has features for different visualization, such as scatterplots, bar charts, trees, to dendorograms, networks and heatmaps.   There are over 100 widgets for standard data analysis and specialized add-ons for Bioorange for bioinformatics.
+
+Core Orange supports Excel, comma- and tab-delimited files (.xlsx, .csv, .tab). It also reads online data, such as Google Spreadsheets. SQL widget supports PostgreSQL and MSSQL databases. Add-ons can load additional formats. For example, Orange3-ImageAnalytics add-on can import images (.jpg, .tiff, .png) and Orange3-Text add-on can import text files (.txt, .docx, .pdf).
+
+FEATURES
+Canvas: graphical front-end for data analysis        
+Widgets:        
+Data: widgets for data input, data filtering, sampling, imputation, feature manipulation and feature selection        
+Visualize: widgets for common visualization (box plot, histograms, scatter plot) and multivariate visualization (mosaic display, sieve diagram).        
+Classify: a set of supervised machine learning algorithms for classification        
+Regression: a set of supervised machine learning algorithms for regression        
+Evaluate: cross-validation, sampling-based procedures, reliability estimation and scoring of prediction methods        
+Unsupervised: unsupervised learning algorithms for clustering (k-means, hierarchical clustering) and data projection techniques (multidimensional scaling, principal component analysis, correspondence analysis).        
+Add-ons:        
+Associate: widgets for mining frequent itemsets and association rule learning        
+Bioinformatics: widgets for gene set analysis, enrichment, and access to pathway libraries        
+Data fusion: widgets for fusing different data sets, collective matrix factorization, and exploration of latent factors        
+Educational: widgets for teaching machine learning concepts, such as k-means clustering, polynomial regression, stochastic gradient descent        
+Geo: widgets for working with geospatial data        
+Image analytics: widgets for working with images and ImageNet embeddings        
+Network: widgets for graph and network analysis        
+Text mining: widgets for natural language processing and text mining        
+Time series: widgets for time series analysis and modeling        
+Spectroscopy: widgets for analyzing and visualization of (hyper)spectral datasets
+
+DATA SOURCES / FILE FORMATS:
+Excel (.xlsx), simple tab-delimited (.txt), comma-separated files (.csv) or Google Sheets document
+distance matrix: Distance File
+predictive model: Load Model
+network: Network File from Network add-on
+images: Import Images from Image Analytics add-on
+several spectroscopy files: Multifile from Spectroscopy add-on
+PostgreSQL, SQL, online repository, and extended via pandas"
+RapidMiner,"https://www.rapidminer.com
+
+https://github.com/rapidminer/rapidminer-studio
+
+https://academy.rapidminer.com/",GNU General Public License version 3.0 (GPLv3),7.3.0,,"OpenJDK 8, 64-bit recommended 
+Minimum:  Dual core, 2GHz processor, 4GB RAM, >1GB free disk space, Resolution: 1280x1024
+Recommended: Quad core, 3GHz or faster processor, 16GB RAM, >100GB free disk space","Windows, macOS, Linux","Integrated environment for data preparation, machine learning, deep learning, text mining, and predictive analytics
+
+LIMITED FREE VERSION:
+-10,000 Data Rows
+-1 Logical Processor
+-Community Support
+-30 Day Trial of Enterprise
+
+Easy-to-use visual environment for predictive analytics. No programming required. RapidMiner is easily the most powerful and intuitive graphical user interface for the design of analysis processes. Forget sifting through code! You can also choose to run in batch mode. Whatever you prefer, RapidMiner has it all.
+
+RapidMiner Python package:
+Both Studio and Server classes provide a read and a write method for reading / writing data and other objects, and a run method to run processes. The method signatures are the same, with somewhat different extra parameters.
+
+Studio class requires a local Studio installation and is suitable in the following cases:
+
+Implementing certain data science steps in Python using your favorite IDE or notebook implementation. You may even use the resulting code afterwards in a RapidMiner process within an Execute Python operator.
+You are using coding primarily, but you want to incorporate methods that are impemented in a RapidMiner process.
+Creating batch tasks that also interact with the repository and / or run processes.
+Server class connects directly to a Server instance without the need of a Studio installation. It is suitable in the following cases:
+
+Collaborating with RapidMiner users, sharing data easily.
+Calling, running, scheduling processes on the RapidMiner Server platform from a local script 
+
+DATA SOURCES / FILE FORMATS:
+
+Files: CSV, Stata, Hyper (Tableau), XLS, XML, QLikView, and more
+SQL: AccessDB, HSQLDB, Microsoft SQL Server (JTDS / Microsoft), MySQL, Oracle, PostgreSQL, Sybase
+NoSQL: Cassandra, MongoDB, Solr, Splunk (read only)
+Cloud services: Amazon S3, Azure blog and data lake, Dropbox, Google, Salesforce, Twitter, Zapier, Salesforce
+"
+WEKA,"https://sourceforge.net/projects/weka/
+
+https://www.cs.waikato.ac.nz/ml/weka/
+",GNU General Public License version 3.0 (GPLv3),3.8.4,12/20/2019,,"Windows, macOS, Linux","Machine learning software to solve data mining problems
+
+Weka is a collection of machine learning algorithms for solving real-world data mining problems. It is written in Java and runs on almost any platform. The algorithms can either be applied directly to a dataset or called from your own Java code.
+It incorporates representation and prescient investigation and displaying strategies, grouping, afiliation, relapse and order.
+Weka is tried and tested open source machine learning software that can be accessed through a graphical user interface, standard terminal applications, or a Java API. It is widely used for teaching, research, and industrial applications, contains a plethora of built-in tools for standard machine learning tasks, and additionally gives transparent access to well-known toolboxes such as scikit-learn, R, and Deeplearning4j.
+
+Weka contains a collection of visualization tools and algorithms for data analysis and predictive modeling, together with graphical user interfaces for easy access to these functions.
+
+Weka supports several standard data mining tasks, more specifically, data preprocessing, clustering, classification, regression, visualization, and feature selection. All of Weka's techniques are predicated on the assumption that the data is available as one flat file or relation, where each data point is described by a fixed number of attributes (normally, numeric or nominal attributes, but some other attribute types are also supported). Weka provides access to SQL databases using Java Database Connectivity and can process the result returned by a database query. 
+
+Weka is not capable of multi-relational data mining, but there is separate software for converting a collection of linked database tables into a single table suitable for processing using Weka. Another important area that is currently not covered by the algorithms included in the Weka distribution is sequence modeling.
+
+FEATURES:
+machine learning        
+data mining        
+preprocessing        
+classification        
+regression        
+clustering        
+association rules        
+attribute selection        
+experiments        
+visualization        
+workflow        
+
+DATA SOURCES / FILE FORMATS:
+Arff, JSON, CSV, xrff, dat, data, names, and more
+Database using ODBC
+"
+Anonimatron,"https://realrolfje.github.io/anonimatron/
+
+https://github.com/realrolfje/anonimatron",MIT License,1.13.0,4/1/2020,Java 1.8,"Windows, macOS, Linux","Pseudonymizes datasets
+
+Anonimatron is a tool that pseudonymizes datasets and that can be used to generate pseudonymized production data to find a bug or do performance tests outside of the client’s production environment.
+With release of the GDPR, a feature was added that enables the anonymization of files. You can configure a column to be anonymized without storing the generated synonyms for later runs.
+
+FEATURES:
+Anonymize data in databases and files.
+Generates fake email addresses, fake Roman names, and UUID’s out of the box.
+Easy to configure, automatically generates example config file.
+Anonymized data is consistent between runs. No need to re-write your tests to handle random data.
+Extendable, easily implement and add your own anonymization handlers
+Multi database, uses SQL92 standards and supports Oracle, PostgreSQL and MySQL out of the box. Anonimatron will autodetect the following JDBC drivers: DB2, MsSQL, Cloudscape, Pointbase, Firebird, IDS, Informix, Enhydra, Interbase, Hypersonic, jTurbo, SQLServer and Sybase.
+
+DATA SOURCES / FILE FORMATS:
+Oracle, PostgreSQL, MySQL, DB2, MsSQL, Cloudscape, Pointbase, Firebird, IDS, Informix, Enhydra, Interbase, Hypersonic, jTurbo, SQLServer and Sybase"
+ARX Data Anonymization,"https://arx.deidentifier.org/
+https://arx.deidentifier.org/overview/
+https://arx.deidentifier.org/downloads/
+https://github.com/arx-deidentifier/arx
+https://github.com/arx-deidentifier/arx/tree/master/src/example/org/deidentifier/arx/examples
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4419984/",Apache License 2.0,3.8.0,11/17/2019,ARX uses external libraries. Their licenses are listed in the respective folders.,"Windows, Linux, Mac OS","Scalable Data Anonymization Tool - supports multiple privacy models
+
+ARX is a comprehensive open source software for anonymizing sensitive personal data. It supports a wide variety of (1) privacy and risk models, (2) methods for transforming data and (3) methods for analyzing the usefulness of output data. It supports various anonymization techniques, methods for analyzing data quality and re-identification risks and it supports well-known privacy models, such as k-anonymity, l-diversity, t-closeness and differential privacy.
+ARX is an open source tool for transforming structured (i.e. tabular) personal data using selected methods from the broad areas of data anonymization and statistical disclosure control. It supports transforming datasets in ways that make sure that they adhere to user-specified privacy models and risk thresholds that mitigate attacks that may lead to privacy breaches. ARX can be used to remove direct identifiers (e.g. names) from datasets and to enforce further constraints on indirect identifiers. Indirect identifiers (or quasi-identifiers, or keys) are attributes that do not directly identify an individual but may together with other indirect identifiers form an identifier that can be used for linkage attacks. It is typically assumed that information about indirect identifiers is available to the attacker (in some form of background knowledge) and that they cannot simply be removed from the dataset (e.g. because they are required later for analyses). ARX also supports methods for protecting sensitive attributes from disclosure and semantic privacy models, which require fewer assumptions to be made about the goals and the background knowledge of attackers.
+The software has been used in a variety of contexts, including commercial big data analytics platforms, research projects, clinical trial data sharing and for training purposes.
+ARX is able to handle large datasets on commodity hardware and it features an intuitive cross-platform graphical user interface. 
+ARX is also available as a comprehensive software library with a clean API that delivers data anonymization capabilities to any Java program.
+ARX provides compatibility with SQL databases, MS Excel and CSV files. Moreover, it supports data cleansing and can handle incomplete and dirty data.
+
+DATA SOURCES / FILE FORMATS:
+CSV files, MS Excel spreadsheets 
+Relational database systems, such as MS SQL, DB2, MySQL or PostgreSQL
+"
+WhiteRabbit,https://github.com/OHDSI/WhiteRabbit,Apache License 2.0,0.9.0,12/31/2019,Requires Java 1.8 (licensed) or higher and read access to the database to be scanned,"Windows, macOS, Linux","Tool to help prepare for ETLs of healthcare datasets
+
+WhiteRabbit is a small application that can be used to analyze the structure and contents of a database as preparation for designing an ETL. It comes with RabbitInAHat, an application for interactive design of an ETL to the OMOP Common Data Model with the help of the scan report generated by White Rabbit. WhiteRabbit’s main function is to perform a scan of the source data, providing detailed information on the tables, fields, and values that appear in a field. This scan will generate a report that can be used as a reference when designing the ETL, for instance by using the Rabbit-In-a-Hat tool. White Rabbit differs from standard data profiling tools in that it attempts to prevent the display of personally identifiable information (PII) data values in the generated output data file.
+
+FEATURES:
+Can scan databases in SQL Server, Oracle, PostgreSQL, MySQL, MS Access, Amazon RedShift, Google BigQuery, SAS files and CSV files        
+The scan report contains information on tables, fields, and frequency distributions of values - this is a single Excel File
+Cutoff on the minimum frequency of values to protect patient privacy        
+WhiteRabbit can be run with a graphical user interface or from the command prompt        
+Interactive tool (Rabbit in a Hat) for designing the ETL using the scan report as basis        
+Rabbit in a Hat generates ETL specification document according to OMOP template        
+
+DATA SOURCES / FILE FORMATS:
+comma-separated text files
+MySQL, SQL Server, Oracle, PostgreSQL, Microsoft APS, Microsoft Access, Amazon RedShift, Google BigQuery
+"
+Aggregate Profiler (AP),"https://sourceforge.net/projects/dataquality/
+
+http://www.arrahtech.com/docs/installation_guide.html",GNU General Public License version 3.0 (GPLv3),v6.3.0,4/27/2020,JDK / JRE 1.7.0_07 or above,"Windows, Solaris, Linux","Data profiling and analysis tool - User Ratings: 4.8/5
+Also known as Open Source Data Quality and Profiling.  Features Mysql, Oracle,Postgres,Access,Db2,SQL Server certified Big data support - HIVE Format Creation, Format Matching ( Phone, Date, String and Number), Format standardization Fuzzy Logic based similarity check, Cardinailty check between tables and files Export and import from XML, XLS or CSV format, PDF export File Analysis, Regex search, Standardization, DB search Complete DB Scan, SQL interface, Data Dictionary, Schema Comparison Statistical Analysis, Reporting ( dimension and measure based), Ad Hoc reports and Analytics Pattern Matching , DeDuplication, Case matching, Basket Analysis, Distribution Chart Data generation and Data masking features Meta Data Information, Reverse engineering of Data Model Timeliness analysis , String length analysis Address Correction, Single View of Customer, Product, Golden merge for records Record Match, Linkage and Merge added based on fuzzy logic
+
+Features:
+-Data profiling, filtering, and governance
+-Similarity checks
+-Data enrichment
+-Real time alerting for data issues or changes
+-Basket analysis with bubble chart validation
+-Single customer view
+-Dummy data creation
+-Metadata discovery
+-Anomaly discovery and data cleansing tool
+-Hadoop integration
+
+DATA SOURCES / FILE FORMATS:
+ XML, XLS or CSV format, PDF export
+Teiid, Mysql, Oracle, Postgres, Access, Db2, SQL Server certified Big data support - HIVE
+"
+Talend Open Studio for Data Integration,"https://www.talend.com/products/data-integration/data-integration-open-studio
+
+https://www.talend.com/resources/what-is-data-integration/?type=productspage
+
+https://www.datamation.com/big-data/talend-open-studio-data-integration.html",Apache License 2.0,,,"It requires 3GB RAM (4 GB recommended) and 3 GB of storage space, as well as Java and database drivers.
+Deployment: On-premises","Windows, Ubuntu or macOS","LIMITED FREE VERSION
+Data integration and ETL
+
+Free; prices for supported version not provided
+Talend Open Studio for Data Integration is a free-to-download software to kickstart your first data integration and ETL projects.
+Talend Open Studio for Data Integration is the company's open source solution for ETL. It features an Eclipse-based development environment that will be familiar to developers, ELT and ETL support, versioning, and a long list of connectors. Additional features are available through the company's other open source projects, including Data Streams Free Edition, Open Studio for Big Data, Open Studio for Data Quality, Open Studio for ESB and Open Studio for MDM.
+
+The company also offers a commercial solution called Talend Data Management Platform that is based on the same code. It adds rich development tools, an administration center, monitoring console, data preparation, data quality, high availability and other features, as well as paid support. 
+
+More than 900 pre-built connectors and components for Oracle, Teradata, Microsoft SQL server, Marketo, Salesforce, NetSuite, SAP, Microsoft Dynamics, Sugar CRM, Dropbox, Box, SMTP, FTP/SFTP, LDAP, and more
+
+Key Capabilities
+-ETL and ELT support
+-Eclipse-based development tooling
+-Versioning
+-Large library of connectors
+-Data flow orchestration
+-File management without scripting
+-Data transformations
+
+DATA SOURCES / FILE FORMATS:
+More than 900 pre-built connectors and components for Oracle, Teradata, Microsoft SQL server, Marketo, Salesforce, NetSuite, SAP, Microsoft Dynamics, Sugar CRM, Dropbox, Box, SMTP, FTP/SFTP, LDAP, and more
+"
+Talend Open Studio For Big Data,"https://www.talend.com/products/big-data/big-data-open-studio/
+
+https://github.com/Talend/tbd-studio-se
+
+https://download-mirror2.talend.com/tosbd/user-guide-download/V731/TalendOpenStudio_BigData_GettingStarted_EN_7.3.1.pdf",Apache v2 License,7.3.1,2/27/2020,"3GB minimum, 4 GB recommended, 3 GB Disk Space, Oracle Java 8 or 11 JRE, or OpenJDK 1.8 or 11, A properly installed and configured Hadoop cluster, 7-Zip (optional)","Windows 10, Ubuntu, MacOS","(LIMITED FREE VERSION
+
+Simplify ETL for large and diverse data sets. 
+
+-Upload to and extract big data from Hadoop HDFS, HBase, Hive, and NoSQL databases
+-Develop data jobs that use Pig, HiveQL, MapReduce, and Sqoop
+-Deploy and setup scheduling jobs with Apache Oozie
+-Work with all the major Hadoop distributions including: Apache Hadoop, Cloudera CDH, Hortonworks Data Platform, MapR, and Greenplum
+
+Hadoop and NoSQL with free open source ETL & ELT software for big data integration and transformation. Drag, drop, and configure pre-built components, generate native code, and deploy to Hadoop for simple EDW offloading and ingestion, loading, and unloading data into a data lake on-premises or any cloud platform. The visual development tool enables you to develop, maintain, and reuse jobs and take advantage of the massively parallel environment of Hadoop and NoSQL without learning new languages. Open Studio for Big Data is fully open source, so you can see the code and work with it. Embed existing Java code libraries, create your own components or leverage community components and code to extend your project. As an active contributor to Apache projects with millions of downloads and a full range of open source integration software tools, Talend is an open source leader in cloud and big data integration.
+
+Design and Productivity Tools
+
+-Hadoop job scheduler with YARN
+-Hadoop security for Kerberos
+-Ingestion, loading, and unloading data into a data lake
+-Graphical design environment
+-ETL and ELT support
+-Versioning
+-Connectors
+
+Cloud: Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform, and more
+RDBMS: Oracle, Teradata, Microsoft SQL server, and more
+SaaS: Marketo, Salesforce, NetSuite, and more
+Packaged Apps: SAP, Microsoft Dynamics, Sugar CRM, and more
+Technologies: Dropbox, Box, SMTP, FTP/SFTP, LDAP, and more
+Components
+
+Hadoop components: HDFS, Hbase, Hive, Pig, Sqoop
+File management: open, move, compress, decompress without scripting
+Control and orchestrate data flows and data integrations with master jobs
+Map, aggregate, sort, enrich, and merge data"
+Talend Open Studio For Data Quality,"https://www.talend.com/products/talend-open-studio/
+https://www.talend.com/products/specifications-data-preparation/
+https://www.talend.com/services/training/catalog/data-preparation/
+https://www.talend.com/products/data-preparation-free-desktop-manuals-release-notes/
+https://www.talend.com/products/data-preparation/data-preparation-free-desktop/
+https://help.talend.com/?_ga=2.160577595.701901107.1588024425-1229489531.1584476910&_gac=1.45294608.1586205682.EAIaIQobChMIyc_UytTU6AIVDtVkCh2RWgdCEAAYAiAAEgL_U_D_BwE
+
+https://download-mirror2.talend.com/tdp/user-guide-download/V251/TalendDataPrep_GettingStarted_EN.pdf
+
+
+",Apache License 2.0,v2.5,6/5/2018,"Processor 64-bit processor is required, Alllocated memory 1GB minimum, Disk space 500MB minimum + datasets = 5GB recommended","Windows, MacOS","LIMITED FREE VERSION
+https://www.talend.com/products/pricing-model/
+
+Talend Open Studio for Data Quality and Talend Data Preparation Free Desktop.  Do simple cleansing, data manipulation, standardization and enrichment.
+
+Datasets can be a local or remote file that can be imported into the Talend Data Preparation tool (or from a database connection or other data sources, although not in the context of the Free Desktop version). A dataset is used as raw material for one or more preparations.
+
+Create clean and valuable data in minutes with Single point of access across data sources, Interactive discovery, cleansing and formatting and Automation and reuse data preparation tasks.  Auto-discover and browse your data.
+
+Import, export, and combine data from any database, Excel or CSV file, Export to Tableau, Auto-discovery, standardization, auto-profiling, smart suggestions, and data visualization, Cleansing and enrichment functions
+
+Features:
+- Import data
+- Data standardization 
+- Basic formatting and cleansing 
+- Ability to add data cleaning recipes for reuse.  Multiple preparations can be saved and created for a single dataset
+- Semantic type.  Talend Data Preparation automatically suggests the proper semantic type for each column of your datasets.
+- Data quality bar - under each column is a color coded data quality bar that displays the aount of fields tha have correct data, empty fields, or incorrect data
+- Basic text manipulation - clean and change values in a field with invalid values
+- Basic numeric manipulation - clean and change outliers in a numeric field.  
+- Data masking - mask sensitive data
+- Data blending - connect data from different sources.  Take data from a preloaded dataset and add to a dataset you are working on
+- Group and standardize - find cells that have similar content and group them together by changes the text to match
+
+Design and Productivity Tools
+
+Eclipse-based tooling
+Customizable assessment
+Pattern library
+Data Quality and Governance
+
+Data profiling and analytics with graphical charts and drilldown data
+Advanced Data Profiling
+
+Fraud pattern detection using Benford Law
+Advanced statistics with indicator thresholds
+Column set analysis
+Advanced matching analysis
+Time column correlation analysis
+
+DATA SOURCES / FILE FORMATS
+More than 900 pre-built connectors and components for Oracle, Teradata, Microsoft SQL server, Marketo, Salesforce, NetSuite, SAP, Microsoft Dynamics, Sugar CRM, Dropbox, Box, SMTP, FTP/SFTP, LDAP, and more"
+Talend Open Studio For ESB,"https://www.talend.com/products/application-integration/esb-open-studio/
+https://www.talend.com/download/esb-open-studio/
+https://help.talend.com/reader/akzLCJX2jurKtvXycoNGyQ/0jR_lL3USb1L51fZ1wZ4ig
+https://help.talend.com/reader/KMuqp2HM0UOrRllqA9mIzA/4LrCsbi2Vo7lnxTWI2gDBw
+
+https://www.talend.com/products/application-integration/esb-manuals-release-notes/
+",Apache license,7.3.1,2/26/2020,"https://help.talend.com/reader/3tqeAEtb4sPbcKls967Srg/Zx8UE3tObCgrhTVRjxi3dQ
+Talend Studio Client        3GB – 4GB, Talend Runtime Server 2GB – 4GB
+Talend Studio Client        3GB+ recommended, Talend Runtime Server 400MB+ recommended
+Open JDK 11 recommended","Windows, Linux, MacOS","LIMITED FREE VERSION
+
+Talend Open Studio for Enterprise Service Bus (ESB) is free-to-download software that easily service-enables and integrates applications and legacy systems.  Talend ESB is a versatile and flexible ESB that allows organizations to address diverse integration challenges. It supports a broad set of standard transports and protocols, as well as enterprise integration patterns (EIPs), a common set of best practice descriptions developed to design effective messaging solutions. Available in several packages, Talend ESB is open and standards-based to allow wide interoperability with existing and legacy infrastructure components.
+
+Leveraging Apache CXF, Apache Camel and Apache ActiveMQ open source integration projects, Talend ESB makes enterprise-class integration accessible by delivering a cost-effective and easy-to-use way to integrate and expand systems and applications.
+
+-Design and Productivity Tools
+--Graphical design environment
+--Versioning
+
+-Agile Application Integration
+--Drag-and-drop route, data, and web/REST services creation and simulation
+--Deliver and route messages and events based on Enterprise Integration Patterns (EIPs)
+--Reliable messaging backbone based on ActiveMQ
+--Command line and scripting tools
+
+-Connectors
+--Cloud: Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform, and more
+--RDBMS: Oracle, Teradata, Microsoft SQL server, and more
+--SaaS: Marketo, Salesforce, NetSuite, and more
+--Packaged Apps: SAP, Microsoft Dynamics, Sugar CRM, and more
+--Technologies: Dropbox, Box, SMTP, FTP/SFTP, LDAP, and more
+
+-Components
+--Standard support: REST, SOAP, OpenID Connect, OAuth, SAML, WSDL, SWAGGER(tm), and more
+--Transports/protocols support: HTTP, JMS, MQTT, AMQP, UDP, Apache Kafka, WebSphere MQ, and more
+--Enterprise Integration Patterns for service mediation, routing, and messaging
+
+-Services Management
+--System monitoring: JMX / Jolokia
+--Access into live statistics of message flow activity"
+Talend Open Studio For MDM,"https://sourceforge.net/projects/talend-mdm/files/Talend%20MDM%20Community%20Edition/
+https://help.talend.com/reader/_naRdaNqgnICsFhofGshTQ/pMnFXbKb9_D9cArV29E9FQ
+https://sourceforge.net/projects/talend-mdm/",Apache V2,7.2.1,5/29/2019,"Memory usage: 4 GB recommended, Disk space: 3GB
+Oracle Java 8 JRE or OpenJDK 1.8
+7-Zip","Windows, Ubuntu, MacOS","LIMITED FREE VERSION
+
+Talend Open Studio for MDM provides the key capabilities for data governance, which enable users to build data models employing the necessary business and data rules to create one single copy of the master data to be propagated back to the source and target systems.
+Build a strong foundation for your MDM project with free open source master data management software.
+Profile data from customers, suppliers, assets, employers and beyond. Create models to search and browse profiled data, so everyone can create and update master data through a web-based application. Generate a single “version of the truth” for data across your organization.
+Expand your open source stack with Open Studio for ESB and pass updates to MDM to be disseminated out to connected systems.
+As an active contributor to Apache projects with millions of downloads and a full range of robust, open source integration software tools, Talend is an open source leader in cloud and big data integration.
+
+FEATURES:
+-Design & productivity tools: Eclipse-based developer tooling and job designer, export and execute standalone jobs in runtime environments.
+-MDM web application with master data repository, a fully functional MDM environment, and model-drive UI.
+-Connectors for AWS, Microsoft Azure, Google Cloud Platform, and more. Plus SaaS, packaged apps, and web services.
+-Components for data flow control with master jobs for basic matching and grouping of entity, and to map, aggregate, sort, enrich, and merge data.
+
+Open Studio for ESB, sourceforge.net/projects/talendesb/
+Data Quality & Profiling, sourceforge.net/projects/talendprofiler/
+Data Preparation, sourceforge.net/projects/talend-data-preparation
+
+DATA SOURCE / FILE FORMATS:
+AWS, Microsoft Azure, Google Cloud Platform, and more. Plus, SaaS, packaged apps, and web services
+"
+OpenRefine,"http://openrefine.org/
+https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Developers
+https://casci.umd.edu/wp-content/uploads/2013/12/OpenRefine-tutorial-v1.5.pdf
+https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions#requirements",Apache License 2.0,v3.3,1/31/2020,"Java JRE/JDK installed (If you are running a 64 bit operating system, then it's recommended that you install 64 bit Java)","Windows, Linux and Mac OS","OpenRefine (previously Google Refine) is a powerful tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data.
+
+Tool for cleaning and transforming data
+
+OpenRefine keeps your data private on your own computer by running a small server on your computer and you use your web browser to interact with it. OpenRefine is available in more than 15 languages. OpenRefine is part of Code for Science & Society.
+
+File formats supported by Open refine includes TSV, CSV, *SV, .xls, .xlsx, JSON, XML,RDF as XML and google documents
+
+Features:
+-Data exploration
+-Data cleaning and filtering
+-Data transformation
+-Data format conversion
+-Data extension
+-Data linking
+-Data import
+-Cell transformations
+-Dataset linking
+-Data partition
+-Name-entity operation
+-Advanced data operations
+-General Refine Expression Language
+-Data reconciliation and matching"
+DataCleaner,"http://datacleaner.org/docs
+https://github.com/datacleaner/DataCleaner
+https://travis-ci.org/datacleaner/DataCleaner",GNU Lesser General Public License v3.0,5.7.0,4/1/2019,"A computer (with a graphical display, except if run in command-line mode).
+A Java Runtime Environment (JRE), version 7 or higher.
+A DataCleaner software license file for professional editions.
+","Windows, Linux and Mac OS","(LIMITED) Community Edition is free, otherwise you need a subscription. 
+Open source data quality tool data profiling, data cleaning, and data integration.  DataCleaner is a Data Quality toolkit that allows you to profile, correct and enrich your data. People use it for ad-hoc analysis, recurring cleansing as well as a swiss-army knife in matching and Master Data Management solutions.
+
+DataCleaner is a strong data profiling engine for discovering and analyzing the quality of user's data.  It is built to handle data both big and small from CSV files, Excel spreadsheets to RDBMs and NoSQL databases.  User can build their own cleansing rules and compose them into several use scenarios or target databases whether it is simple search/replace rules, regular expressions, and pattern matching or completely custom transformations.
+
+DataCleaner's Monitoring establishes the starting point and goals, and to ensure a process of following up on data quality issues.  The monitoring server of DataCleaner enables users to make point-in-time profiles of users' data, and to schedule periodic data quality checks and receive notifications if quality KPIs get out of control.
+
+DataCleaner's Data Quality Eco-System delivers out-of-the-box functionality, and application extensions, integrations and shared content.
+
+DataCleaner's Duplicate detection feature, builds on Machine Learning principles for eacse of configuraiton and impreoved inferential matchine
+
+DataCleaner offers integrations with the Pentaho open source business intelligence suite
+
+DATA SOURCES / FILE FORMATS:
+CSV files, Excel spreadsheets
+JDBC, MySQL, PostrgreSQL, SQL Server
+Salesforce, SugarCRM
+"
+DataPreparator,"https://www.datapreparator.com/downloads.html
+https://www.datapreparator.com/
+https://www.datapreparator.com/features.html
+https://www.softpedia.com/get/CD-DVD-Tools/Audio-CD-DVD-Burning/DataPreparator.shtml",https://www.datapreparator.com/software-license-agreement-2.html,1.7,7/12/2014,"JRE 1.6 or later,  Memory: 1G or more, Disk Space: 20M","Windows, MacOS, Linux","DataPreparator is a free software tool designed to assist with common tasks of  data preparation (or data preprocessing) in data analysis and data mining. 
+
+DataPreparator provides:
+
+-A variety of techniques for data cleaning, transformation, and exploration
+-Chaining of preprocessing operators into a flow graph (operator tree)
+-Handling of large volumes of data (since data sets are not stored in the computer memory)
+-Stand alone tool independent of any other tools
+-User friendly graphical user interface
+
+DataPreparator can assist you with exploring and preparing data in various ways prior to data analysis or data mining. It includes operators for cleaning, discretization, numeration, scaling, attribute selection, missing values, outliers, statistics, visualization, balancing, sampling, row selection, and several other tasks. See Features for details.
+
+FEATURES:
+-Data Cleaning: - Data cleaning facilities include character removal, text replacement, and date conversion.
+-Data Import/Export: - DataPreparator can be used to import data from a database and export them to a file and vice versa. 
+-Data Integration: - Two operators, Append and Merge, can be used to combine data from different data sources.
+-Data Reduction: - Data reduction can be achieved using sampling and record selection.
+-Data Transformation: - DataPreparator can be used to preprocess data for data mining. It transforms training data using a series of transformations and in the process creates a model which can be used to transform corresponding test/execution data. DataPreparator provides many operators for transforming data. 
+-Data Visualization: - Data visualization can be performed using a variety of statistical plots.
+
+DATA SOURCE / FILE FORMATS:
+JDBC, XLS
+ARFF, DATA, CSV or plain text file format
+"
+Data Match,"https://dataladder.com/products/
+http://dataladder.com/data-matching-software/
+https://sourceforge.net/software/product/DataMatch/
+https://youtu.be/QkM280dwES8
+https://dataladder.com/wp-content/uploads/2019/06/DataMatch-Enterprise-Datasheet.pdf",Proprietary,,,"4 or more cores
+Intel Core i7
+16 or more GB of RAM
+SSD, or SCSI HDDs
+SSD (Free space requirements depends on the size of input data), 1 TB Disk Space, Microsoft Windows 7 SP1 and above, 64 bit (Current Generation) ",Windows,"30-day trial 
+
+(Part of Data Ladder)
+DataMatch Enterprise™ solution is a highly visual data cleansing application specifically designed to resolve customer and contact data quality issues. The platform leverages multiple proprietary and standard algorithms to identify phonetic, fuzzy, miskeyed, abbreviated, and domain-specific variations. Build scalable configurations for deduplication & record linkage, suppression, enhancement, extraction, and standardization of business and customer data and create a Single Source of Truth to maximize the impact of your data across the enterprise.
+
+
+FEATURES:
+- Data Deduplication
+- Match and Merge
+
+DATA SOURCES / FILE FORMATS:
+Access, Apache HBase, Dynamics CRM, Email, Excel, Facebook, JSON, MongoDB, MySQL, Salesforce, SugarCRM, Twitter, XML"
+DataMartist,"http://www.datamartist.com/
+http://www.datamartist.com/downloads
+http://www.datamartist.com/product/datamartist-faq
+http://www.datamartist.com/product/datamartist-for-developers
+https://www.softpedia.com/get/Internet/Servers/Database-Utils/Datamartist.shtml",Proprietary,1.5.4,9/23/2011,"1 Ghz or higher CPU
+4 Gb RAM",Windows,"30 Day Free Trial
+Standard - $349
+Professional - $995
+
+Datamartist is a low cost flexible, visual, data profiling and data transformation tool. It can read data from data sources (such as files, or relational databases), do data transformations using a simple, visual user interface, and then can write the results into files or databases. By combining a flexible ETL tool with data profiling capabilities, Datamartist is a fast and easy way to both do ad-hoc data profiling, and to set up automated data quality monitoring.
+For a wide range of data transformation requirements, Datamartist is the only tool required, giving a fast and flexible ETL capability to pull all sorts of data from all sorts of sources.
+
+-Profile your data
+-Find Data Quality Issues
+-Excel Import and Export
+
+FEATURES:
+-Data profiling and transformation (Standard)                  
+--Import data from Excel, Text files and databases
+--Transform data using a visual data canvas with blocks
+--Profile data visually with drill down
+--Output data to Excel, Text files and databases
+-Advanced data profiling functionality (Pro)
+--Automated Data Profiling and tracking with the data profiler block enables data quality metric tracking
+--Regular expressions for powerful string parsing available in all expressions, filters and segmentation rule sets
+--Data format profiling rule editing expands the ability to analyze string columns easily
+--Value distribution analysis with graphical zoom, and drill down to explore numerical values
+-Data mart blocks for star schema creation (Pro)
+--Reference block to create unique keys and meta data
+--De-duplication block to map duplicates to master records
+--Visual hierarchy editor with drag and drop to build alternate drill down paths
+
+DATA SOURCES / FILE FORMATS:
+SQL Server, Oracle, MySQL, ODBC, MS Access, Excel Spreadsheets, Delimited text files including CSV data"
+Pentaho Kettle,"https://sourceforge.net/projects/pentaho/files/latest/download?aliId=137249511
+
+https://community.hitachivantara.com/s/article/data-integration-kettle
+
+http://wiki.pentaho.com/display/EAI/Latest+Pentaho+Data+Integration+%28aka+Kettle%29+Documentation",Apache License 2.0,8.2,4/20/2020,"Pentaho is hardware agnostic but there is a recommended set of minimum system specifications:
+
+Server:
+RAM: at least 4GB, Hard drive space: at least 2GB for the software, and more for solution and content files, Processor: dual-core AMD64 or Intel EM64T
+
+Workstation:
+RAM: at least 2GB, Hard drive space: at least 1GB for the software, and more for solution and content files, Processor: dual-core AMD64 or Intel EM64T
+","Windows, MacOS, Linux","Pentaho Community Edition is free -  LIMITED)
+
+Works with WEKA (Data Profiling)
+
+Data Integation - Extract, transform and load (ETL) limited data sets and create visualizations with Pentaho’s report designer tool.
+The term, K.E.T.T.L.E is a recursive that stands for Kettle Extraction Transformation Transport Load Environment.  Pentaho Data Integration is well known for its ease of use and quick learning curve. PDI implements a metadata-driven approach which means that the development is based on specifying what to do, not how to do it. Pentaho lets administrators and ETL developers create their own data manipulation jobs with a user-friendly graphical creator, and without entering a single line of code. 
+PDI uses a common, shared repository which enables remote ETL execution, facilitates teamwork, and simplifies the development process.
+
+FEATURES:
+ETL
+
+DATA SOURCES / FILE FORMATS:
+Oracle, PostgreSQL, Redshift, SAP, SQLite, SparkSQL, Sybase, Teradata, UniVerse, Verica, Cloudera Impala, Hypersonic, H2 and more"
+SQL Power Architect,"http://www.sqlpower.ca/page/architect
+http://www.bestofbi.com/page/architect_download_os",Proprietary,v1.0.8,,"JRE 7, Space 1.8 GB, I GB Ram, 2 Ghz Processor","Windows, macOS, Linux","Community (Free Use - LIMITED), Pro and Enterprise (Paid Version)
+
+SQL Power Architect data modeling tool has many unique features geared specifically for the data warehouse architect. It is a powerful database utility that not only builds diagrams of databases, but also provides data dictionary language output, which can be used to build database solutions.
+
+
+Connects to multiple source databases concurrently, Compares data models & database structures and identifies discrepancies, Generates source-to-target visual Mapping Reports, Forward/reverse engineers PostgreSQL, Oracle, MS SQL Server & more.
+
+DATA SOURCES / FILE FORMATS:
+JDBC, PostgreSQL, SQL, MySQL, HSSQLDB, Oracle, DB2, HSQLDB, SQLstream, H2, Derby"
+SQL Power DQguru,"http://www.sqlpower.ca/page/dqguru
+https://www.sqlpower.ca/dqguru/current.html",Proprietary,V0.9.7,4/10/2009,"JRE 6, 2 GB Ram, Screen Resolution 1280 X 800","Windows, MacOS, Linux","Community Edition alone is Free - LIMITED
+SQL Power DQguru has a limited feature set.
+Data Cleansing & MDM Tool - DQguru by SQL Power is a specialized and powerful tool that can help you deduplicate reference data. DQguru is a good tool for advanced end-users who don't want or need to be messing around with complicated SQL (or regular expressions, for that matter) to perform common data cleansing tasks.
+
+The SQL Power DQguru helps you cleanse your data, validate and correct addresses, identify and remove duplicates, and build cross-references between source and target tables. This provides business users with complete and accurate data, and a single 360-degree view of all business entities, such as customer, product, representative, employee, supplier or business unit.
+
+FEATURES:
+1.  Intuitive GUI allows for quick adoption and use by data analysts
+2.  Intuitive 'transform' process interface allows you to rapidly build and deploy data conversion work flows
+3.  Users can define their own data matching criteria
+4.  Duplicate verification via SQL Power's innovative interface
+5.  Merge duplicates and their related data
+6.  Can be used for initial or periodic data clean-up
+7.  Generates cross reference tables to link source system identifiers to target database identifiers
+8.  Extensive support for transformation and matching functions:
+8.1 Concatenation
+8.2 Double Metaphone, Metaphone, Refined Soundex, Soundex phonetic coding
+8.3 Alphabet case conversion
+8.4 String substitution
+8.5 Substring and substring by word
+8.6 Word substitution through the translation of words or groups of words
+8.7 Merge rules for column, table and related table merges
+9. Varying levels of data transformation are also supported to help manage the development and execution of data cleansing processes:
+9.1 The Match Engine identifies duplicates, storing the results in a target table, without modifying the source data
+9.2 The Merge Engine removes duplicate records from your source data according to the rules you have defined
+9.3 The Cleansing Engine replaces records in your source data with reformatted data as per your rules
+
+DATA SOURCES / FILE FORMATS:
+JDBC, Oracle, Postgress, MySQL, Sybase and more
+"
+DQ Analyzer,"https://www.ataccama.com/products/dq-analyzer
+https://www.softpedia.com/get/Others/Miscellaneous/DQ-Analyzer.shtml
+https://www.ataccama.com/product/dq-analyzer/download
+https://support.ataccama.com/home/docs/dqa
+
+https://support.ataccama.com/home/docs/dqa/files/22446812/25992263/1/1482249727822/Ataccama+DQA+10+User+Guide.pdf",Proprietary,11,6/11/2019,"Processor: Intel-compatible - 2 GHz recommended
+Memory: at least 512 MB - 1 GB recommended
+Disk space for installation: 400 MB
+Screen resolution: at least 1024 x 768",Windows,"Community Edition alone is Free - LIMITED
+
+DQ Analyzer is a powerful and market-popular desktop application for advanced data profiling. It reveals the contents of your data in minutes and easily integrates with more advanced Ataccama ONE modules. While DQ Analyzer uncovers problems with your data, other Ataccama ONE modules will further help you transform, standardize, cleanse, validate, correct and enrich your data.
+
+Data Profiling
+Discover, analyze, and understand critical patterns in your data. Visualize the frequency, domain, and mask analysis of values, uncover complex dependencies between data attributes, and test relationships between entities. An accurate picture of your data is just one profile away.
+
+FEATURES:
+JDBC Reader: Reads data directly from a database such as Oracle, MS SQL, Sybase, etc.
+Regex Matching: Allows flexible parsing and matching using regular expressions
+Text File Reader: Reads data from a delimited text file, such as CSV
+Fixed-Width File Reader: Reads data from a text file with fixed width columns
+Condition: Splits the data stream based on a condition
+Union Same: Combines data streams that have the same format
+Column Assigner: A powerful and robust business-rules engine that allows the use of complex expressions
+Profiling: Flexible, fully configurable data profiler
+
+DATA SOURCES / FILE FORMATS:
+Oracle, MS SQL, DB2, Sybase, Teradata, MySQL, Apache Derby, PostgreSQL
+CSV, TXT, and XLS(X) 
+"
+Pimcore,"https://pimcore.com/en/platform/subscription
+https://pimcore.com/docs/6.x/Development_Documentation/Getting_Started/Create_a_First_Project.html
+https://pimcore.com/en/resources/documentation
+https://pimcore.com/en/developers/marketplace
+https://talk.pimcore.org/
+https://gitter.im/pimcore/pimcore
+https://stackoverflow.com/questions/tagged/pimcore",Open Source (GPL v3) or Enterprise subscription,v6.6.3,5/5/2020,"https://pimcore.com/docs/6.x/Development_Documentation/Installation_and_Upgrade/System_Requirements.html
+
+For production we highly recommend a *nix based system.
+Webserver: Apache >= 2.2; mod_rewrite; .htaccess support (AllowOverride All); Nginx; PHP >= 7.2
+Database Server: MariaDB >= 10.0.0.5; MySQL >= 5.6.4; AWS Aurora (MySQL); Percona Server","Windows, MacOS or Linux","The Pimcore Platform™ is a dual-licensed software application that is powered by the Open Source GPLv3 license and the enterprise-friendly Pimcore Commercial License (PCL). Pimcore is available free of charge as the Open Source Pimcore Community Edition or as the Pimcore Enterprise Subscription. Depending on your licensing needs, you can choose the right variant of Pimcore.
+
+
+FEATURES
+Data Quality/Semantic -  Cleanse, match, verify, and standardize master data.
+Hierarchy Management - Model and store multiple hierarchies to effectively classify all data instances for diverse business requirements and broader functionalities such as searching and reporting.
+Rich Content Integration - Attach digital assets and rich content with the predefined layout to your structured data for engaging and simplified experiences. Simple to configure and easy to extend.
+Audit Trail - Easily manage and maintain different versions of your structured and unstructured data in one place for better data governance. Improve data handling and data stewardship.
+Superior Connectivity - Provide unimaginable choices to connect with business enterprise systems (ERP, CRM, BI, ESB, etc.) or external third-party applications. API based integration with unlimited connectivity.
+Workflow Management - A powerful workflow engine allows internal and external stakeholders to join in your business processes quickly. Easily include any specific benchmarking effort into your master data.
+
+"
+CytoScape,"https://github.com/cytoscape/cytoscape-tutorials/wiki
+
+https://cytoscape.org/download.html","GNU LESSER GENERAL PUBLIC LICENSE Version 2.1, February 1999",3.8.0,4/15/2020,JRE 11,"Windows, macOS, Linux","Cytoscape is an open source software platform for visualizing molecular interaction networks and biological pathways and integrating these networks with annotations, gene expression profiles and other state data. Although Cytoscape was originally designed for biological research, now it is a general platform for complex network analysis and visualization.
+
+Cytoscape core distribution provides a basic set of features for data integration, analysis, and visualization.   
+Additional features are available as Apps (formerly called Plugins)
+
+DATA SOURCES / FILE FORMATS:
+Simple interaction file (SIF or .sif format), Graph Markup Language (GML or .gml format), XGMML (extensible graph markup and modelling language), SBML, BioPAX, PSI-MI Level 1 and 2.5, Delimited text, Excel Workbook (.xls)"
+Anaconda,"https://www.anaconda.com/products
+https://docs.anaconda.com/
+https://docs.anaconda.com/anaconda/install/
+https://docs.anaconda.com/anaconda/reference/release-notes/
+https://s3.us-east-1.amazonaws.com/anacondacdn/resources/datasheets/anaconda-enterprise-edition-onepager.pdf",GPLv3,3.0,3/11/2020,"License: Free use and redistribution under the terms of the End User License Agreement - Anaconda® Individual Edition.
+Operating system: Windows 8 or newer, 64-bit macOS 10.13+, or Linux, including Ubuntu, RedHat, CentOS 6+, and others.
+If your operating system is older than what is currently supported, you can find older versions of the Anaconda installers in our archive that might work for you. See Using Anaconda on older operating systems for version recommendations.
+System architecture: Windows- 64-bit x86, 32-bit x86; MacOS- 64-bit x86; Linux- 64-bit x86, 64-bit Power8/Power9.
+Minimum 5 GB disk space to download and install.
+On Windows, macOS, and Linux, it is best to install Anaconda for the local user, which does not require administrator permissions and is the most robust type of installation.","Windows, macOS, or Linux.","User Rating: 8.8/10
+Popular open-source data science platform, Enterprise Edition enables organizations to scale data science and machine learning capabilities. Anaconda is an open source Python distribution / data discovery & analytics platform.
+Anaconda Individual Edition is a free, easy-to-install package manager, environment manager, and Python distribution with a collection of 1,500+ open source packages with free community support. 
+Anaconda® is a package manager, an environment manager, a Python/R data science distribution, and a collection of over 7,500+ open-source packages. Anaconda is free and easy to install, and it offers free community support.
+
+FEATURES
+
+-Bindings to the following CUDA libraries:
+--cuBLAS
+--cuFFT
+--cuSPARSE
+--cuRAND
+--CUDA Sorting algorithms from the CUB and Modern GPU libraries
+
+-Speed-boosted linear algebra operations in NumPy, SciPy, scikit-learn and NumExpr libraries using Intel’s Math Kernel Library (MKL).
+
+-Accelerated variants of Numpy’s built-in UFuncs.
+
+-Increased-speed Fast Fourier Transformations (FFT) in NumPy."
+pyxplorer,"https://pypi.org/project/pyxplorer/
+https://github.com/grundprinzip/pyxplorer
+http://nbviewer.ipython.org/github/grundprinzip/pyxplorer/blob/master/pyxplorer_stuff.ipynb","BSD 2-Clause ""Simplified"" License",0.1.0,7/9/2014,"
+Dependencies: pandas; phys2 for Hive based loading of data sets; pympala for connecting to Impala;
+snakebite for loading data from HDFS to Hive
+","Windows, Linux, MacOS","The goal of pyxplorer is to provide a simple tool that allows interactive profiling of datasets that are accessible via a SQL like interface. The only requirement to run data profiling is that you are able to provide a Python DBAPI like interface to your data source and the data source is able to understand simplistic SQL queries.
+
+Supported Features:
+-Column Count (Database / Table)
+-Table Count
+-Tuple Count (Database / Table)
+-Min / Max
+-Most Frequent / Least Frequent
+-Top-K Most Frequent / Top-K Least Frequent
+-Top-K Value Distribution (Database / Table )
+-Uniqueness
+-Constancy
+-Distinc Value Count
+
+DATA SOURCES / FILE FORMATS:
+Hive, Impala, MySQL"
+MobyDQ,"https://github.com/ubisoftinc/mobydq
+https://ubisoftinc.github.io/mobydq/
+https://ubisoftinc.github.io/mobydq/pages/productiondeployment/",Apache License 2.0,v1.0,5/21/2019,,"Windows, Linux","MobyDQ is a tool for data engineering teams to automate data quality checks on their data pipeline, capture data quality issues and trigger alerts in case of anomaly, regardless of the data sources they use.
+
+Free and open-source Data Quality solution that aims to automate Data Quality checks during data processing, storing Data Quality measurements and metric results, and triggering alerts in case of anomaly.  The framework can be used to access different data sources. It installed quickly and straightforward, based on the detailed documentation provided onGitHub. MobyDQ does not provide any data proﬁling functionality, because its focus is on the creation, application,and automation of Data Quality checks. 
+
+MobyDQ provides a toolbox for data engineering teams to design data quality indicators with the objective to answer the following questions:
+
+Is all the necessary data present in the system?
+Is the data available at the time needed for its usage?
+Is the data compliant with validation or business rules?
+Does the data reflect real world objects?
+
+These questions can be answered using the following types of indicators:
+
+-Anomaly detection:        Machine learning algorithms to detect outlying values. **Work in progress**.
+-Completeness:  Difference in percentage between a measure computed in the source system and the same measure computed in the target system.
+-Freshness: Difference in minutes between the current timestamp and the last updated timestamp in the target system.
+-Latency:        Difference in minutes between the last updated timestamp in the source system and the last updated timestamp in the target system.
+-Validity: Any measure computed in target system which does not comply with a validation or business rules.
+
+DATA SOURCES / FILE FORMATS:
+Cloudera Hive, MariaDB, Microsoft SQL Server, MySQL, Oracle, PostgreSQL, SQLite, Teradata, Snowflake, Hortonworks Hive "
